@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Responsive Architecture - Explore sustainable, adaptive, and parametric designs for DecodeLabs Internship Program 2026.">
+  <title>The Responsive Architecture | DecodeLabs</title>
+  
+  <!-- Fonts: Montserrat (Headings) and Open Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip Navigation Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="header" role="banner">
+    <div class="header-container">
+      <div class="logo">
+        <a href="#" aria-label="DecodeLabs Homepage" class="logo-link">
+          <span class="logo-text">Decode<span class="logo-accent">Labs</span></span>
+        </a>
+      </div>
+      <nav class="nav" aria-label="Main Navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" role="main">
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-container">
+        <h1 id="hero-title" class="hero-title">The Responsive <span class="gradient-text">Architecture</span></h1>
+        <p class="hero-description">
+          Designing structures that actively respond to environment, climate, and human interaction. Step into the next era of architectural design centered on adaptability, modularity, and natural resonance.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary" aria-label="View featured architectural projects">Explore Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content Grid Section -->
+    <section id="projects" class="grid-section" aria-labelledby="grid-title">
+      <div class="section-container">
+        <header class="section-header">
+          <h2 id="grid-title" class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Discover our portfolio of modular, context-aware architectural prototypes.</p>
+        </header>
+
+        <div class="card-grid">
+          <!-- Article 1 -->
+          <article class="card" tabindex="0" aria-labelledby="card1-title">
+            <div class="card-image-placeholder" aria-hidden="true">
+              <span class="card-tag">Sustainable</span>
+            </div>
+            <div class="card-content">
+              <h3 id="card1-title" class="card-title">Kinetic Pavilions</h3>
+              <p class="card-text">
+                Dynamic facades featuring solar-responsive shading elements that autonomously track sun paths to maximize ambient temperature comfort and energy capture.
+              </p>
+              <div class="card-footer-action">
+                <button class="btn-card-action" aria-label="Read details about Kinetic Pavilions">Learn More <span aria-hidden="true">&rarr;</span></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="card" tabindex="0" aria-labelledby="card2-title">
+            <div class="card-image-placeholder" aria-hidden="true">
+              <span class="card-tag">Biophilic</span>
+            </div>
+            <div class="card-content">
+              <h3 id="card2-title" class="card-title">Eco-Adapt Shells</h3>
+              <p class="card-text">
+                Self-ventilating structural envelopes constructed from organic materials that contract or expand to optimize ventilation based on current humidity levels.
+              </p>
+              <div class="card-footer-action">
+                <button class="btn-card-action" aria-label="Read details about Eco-Adapt Shells">Learn More <span aria-hidden="true">&rarr;</span></button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="card" tabindex="0" aria-labelledby="card3-title">
+            <div class="card-image-placeholder" aria-hidden="true">
+              <span class="card-tag">Digital</span>
+            </div>
+            <div class="card-content">
+              <h3 id="card3-title" class="card-title">Parametric Hubs</h3>
+              <p class="card-text">
+                Generative space models optimized for spatial density, structural integrity, and multi-functional workspaces that evolve along with community requirements.
+              </p>
+              <div class="card-footer-action">
+                <button class="btn-card-action" aria-label="Read details about Parametric Hubs">Learn More <span aria-hidden="true">&rarr;</span></button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-text">&copy; 2026 DecodeLabs Internship Program. All rights reserved.</p>
+      <div class="footer-meta">
+        <span class="footer-tag">Responsive Architecture Project 1</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script for Navigation and Interactivity -->
+  <script src="script.js"></script>
+</body>
+</html>
