@@ -28,7 +28,7 @@ The project demonstrates front-end web development core concepts including respo
 ---
 
 ## 🌐 Live Demo
-* 🔗 https://it24102892.github.io/DecodeLabs-Internship/
+* 🔗 https://gowshi9.github.io/DecodeLabs-Internship/
 
 ---
 
